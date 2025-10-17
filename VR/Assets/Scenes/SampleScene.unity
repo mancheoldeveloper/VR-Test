@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07835092, g: 0.06745464, b: 0.07573002, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1936,22 +1936,22 @@ PrefabInstance:
     - target: {fileID: 9094329260281299331, guid: b7ee10ba487867d47a2942e352102583,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9094329260281299331, guid: b7ee10ba487867d47a2942e352102583,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 9094329260281299331, guid: b7ee10ba487867d47a2942e352102583,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 9094329260281299331, guid: b7ee10ba487867d47a2942e352102583,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7071068
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9094329260281299331, guid: b7ee10ba487867d47a2942e352102583,
         type: 3}
@@ -1961,7 +1961,7 @@ PrefabInstance:
     - target: {fileID: 9094329260281299331, guid: b7ee10ba487867d47a2942e352102583,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 9094329260281299331, guid: b7ee10ba487867d47a2942e352102583,
         type: 3}
@@ -3380,10 +3380,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99e97bb7ac0df5f40aba536970d42473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targerTag: Meteor
-  OnEnterEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!136 &998302927
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4303,6 +4299,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2915340082495474950, guid: c3fb9fa880951304eb77858c811979c1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0d0f1f087865a1c47826008280428fdf, type: 2}
     - target: {fileID: 3708048177370655955, guid: c3fb9fa880951304eb77858c811979c1,
         type: 3}
       propertyPath: m_Name
@@ -5503,12 +5504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27977db11ccb3df4d9e0149ce2153eb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particles: {fileID: 1417761969}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  shootSource: {fileID: 1857994818}
-  distance: 10
 --- !u!114 &1402881000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5521,8 +5516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 819ead4ac3ae5394a9e75ffaf26c1a9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftHandModel: {fileID: 96950448}
-  rightHandModel: {fileID: 359569644}
 --- !u!114 &1402881001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5737,22 +5730,22 @@ PrefabInstance:
     - target: {fileID: 7079028628379841702, guid: 06cd9e9af97d88946893bd961c4d7f4f,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7079028628379841702, guid: 06cd9e9af97d88946893bd961c4d7f4f,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 7079028628379841702, guid: 06cd9e9af97d88946893bd961c4d7f4f,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 7079028628379841702, guid: 06cd9e9af97d88946893bd961c4d7f4f,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7071068
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7079028628379841702, guid: 06cd9e9af97d88946893bd961c4d7f4f,
         type: 3}
@@ -5762,7 +5755,7 @@ PrefabInstance:
     - target: {fileID: 7079028628379841702, guid: 06cd9e9af97d88946893bd961c4d7f4f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 7079028628379841702, guid: 06cd9e9af97d88946893bd961c4d7f4f,
         type: 3}
@@ -5876,12 +5869,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 006feba16f7a73945b910e18f4cffb06, type: 3}
---- !u!198 &1417761969 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3627876708467246686, guid: 006feba16f7a73945b910e18f4cffb06,
-    type: 3}
-  m_PrefabInstance: {fileID: 1417761968}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1417761970 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3627876708467246624, guid: 006feba16f7a73945b910e18f4cffb06,
@@ -6941,8 +6928,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 575c58576c6369f4ea98bd4aeb81d187, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakablePieces: []
-  timeToBreak: 2
 --- !u!114 &1917111573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7137,7 +7122,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8976884540148032650, guid: 1dd8e872f166b0147bb9fa521a10df8b, type: 3}
 --- !u!1 &1951663023 stripped
@@ -7340,7 +7325,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4794695605855153419, guid: 1dd8e872f166b0147bb9fa521a10df8b, type: 3}
 --- !u!114 &1951663030
@@ -7355,8 +7340,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 819ead4ac3ae5394a9e75ffaf26c1a9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftHandModel: {fileID: 96950448}
-  rightHandModel: {fileID: 359569644}
 --- !u!1 &2023275088 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 133380, guid: 7b45b788a1417934faed26ad07e2f502,
